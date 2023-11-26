@@ -1,0 +1,157 @@
+/* PARALLAX IMAGES */
+/* =====01=== */
+.parallax {
+    background-image: url("./Images/banner.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* PARALLAX HEADING */
+
+  .heading1{
+    color: black;
+    text-align: center;
+  }
+
+  /* ABOUT BTN */
+  .aboutbtn{
+    color: rgb(77, 77, 226);
+    text-decoration: none;
+  }
+
+  /* FIRST BACKGROUND IMAGE IS COMPLETED */
+
+
+/* FIRST PARAGRAGH */
+  .center {
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+  /* =============== */
+
+
+
+  /* =======PARALAX HEADING 02====== */
+
+  .parallax2 {
+    background-image: url("./Images/background.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading2{
+    color: white;
+    font-size:400%;
+    text-align: center;
+  }
+
+  /* SECOND PARALLAX IMAGE IS COMPLETED */
+
+  /* INDEX2 IS STARTED */
+  /* =======PARALAX IMAGE 03====== */
+
+  .parallax3 {
+    background-image: url("./Images/library.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* =======PARALAX HEADING 03====== */
+
+  .heading3{
+    color: white;
+    font-size:400%;
+    text-align: center;
+  }
+/* ========= */
+
+
+.apply{
+  color: blue;
+  text-decoration: none;
+}
+
+
+  /* FOOOTER */  
+.footer2{
+  color: white;
+}
+
+/* PARALLAX IMAGE 04 */
+.parallax4 {
+  background-image: url("./Images/certificate.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading4{
+  color: white;
+  font-size:400%;
+  text-align: center;
+}
+
+
+/* INDEX3 CONTACT US PAGE */
+.parallax5 {
+  background-image: url("./Images/background.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading5{
+  color: whitesmoke;
+  font-size:400%;
+  text-align: center;
+}
+
+.cards:hover{
+cursor: pointer;
+}
+
+.navbar-toggler {
+  border-color: rgb(16, 15, 15);
+  color: white;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}

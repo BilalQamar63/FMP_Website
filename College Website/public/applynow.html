@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>APPLY NOW BUTTON</title>
+</head>
+<style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #218113;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(15, 114, 8) ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(23, 63, 5) ;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+}
+</style>
+<body>
+    <div class="container">
+    <h1>WELCOME EDUFORT ACADEMY</h1>
+    <br>
+    <header>REGISTRATION FORM</header>
+    <br>
+    <input type="text" id="name" placeholder="Enter name">
+
+    <br>
+    <br>
+    <input type="text" id="section" placeholder="Enter section">
+
+    <br>
+    <br>
+    <input type="text" id="email" placeholder="Enter email">
+
+    <br>
+    <br>
+
+    <input type="password" id="password" placeholder="Enter password">
+
+    <br>
+    <br>
+
+    <button class="submitbtn" onclick="submit()">
+      SUBMIT
+    </button>
+    <br>
+    <br>
+    <span>IF YOU ALREADY APPLYED <a href="./applyagain.html">CLICK HERE</a></span>
+    <br>
+    <br>
+    <a href="./index2.html">GO BACK TO ABOUT US</a>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
